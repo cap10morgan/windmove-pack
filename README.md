@@ -4,6 +4,19 @@ This pack configures windmove with default keybindings (shift-arrow moves to
 the window pointed towards by the arrow key). It also saves buffers when
 leaving their windows via windmove or any other method.
 
+### Usage
+
+Clone the git repo to your live packs dir (often ~/.live-packs):
+
+    git clone git@github.com:cap10morgan/windmove-pack.git
+
+Add windmove-pack to your emacs-live configuration by adding this line
+to your ~/.emacs-live.el file:
+
+    (live-add-pack '("/path/to/windmove-pack"))
+
+Then restart Emacs.
+
 ### Credit
 
 This code was lifted from Emacs Prelude by Bozhidar Batsov
